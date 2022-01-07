@@ -1,3 +1,10 @@
+Programma eseguibile dalla macchina di turing
+che, partendo da un numero inserito sul nastro,
+inserisce al termine del numero S, se il
+numero sul nastro è divisibile per 5, altrimenti
+N se non lo è.
+
+
 #init 0
 #end 4
 

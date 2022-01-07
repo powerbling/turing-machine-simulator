@@ -1,3 +1,7 @@
+Programma eseguibile dalla macchina di turing
+che, partendo da un nastro vuoto, rivela in
+output la parola 'CIAO'.
+
 #init 0
 
 (2,clc) > (3,A,<)
