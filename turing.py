@@ -128,7 +128,7 @@ class TuringMachine():
         if len(end := r.findall(program_string)) > 0:
             self.finish = end[0]
 
-        r = re.compile(r"\((\w+),\s*(\w+)\) > \((\w+),\s*(\w+),\s*([><-])\)")
+        r = re.compile(r"^\((\w+),\s*(\w+)\) > \((\w+),\s*(\w+),\s*([><-])\)")
 
         program: "Dict[str, State]" = {}
 
