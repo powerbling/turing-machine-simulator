@@ -4,7 +4,7 @@ output la parola 'CIAO'.
 
 #init 0
 
+(0,clc) > (1,C,<)
+(1,clc) > (2,I,<)
 (2,clc) > (3,A,<)
 (3,clc) > (4,O,<)
-(1,clc) > (2,I,<)
-(0,clc) > (1,C,<)
