@@ -55,7 +55,7 @@ Opzionalmente si può indicare uno stato finale, al cui raggiungimento la macchi
 
 ## Esecuzione di un programma
 
-Per eseguire un programma, basta richiamare il file `turing.py` e fornire come argomento di linea di comando il nome del file del programma (es. `./esempi/ciao.tur`).
+Per eseguire un programma, basta richiamare il file `turing.py` e fornire come argomento di linea di comando il nome del file del programma (es. `./examples/ciao.tur`).
 
 Il file del programma deve trovarsi nella stessa cartella del file `turing.py` se non viene specificata la posizione del primo.
 
@@ -79,7 +79,7 @@ Se non indicato diversamente, la macchina comincia il suo funzionamento con il n
 Per indicare i contenuti da inserire nel nastro prima dell'esecuzione, è necessario specificarli singolarmente, spaziati tra uno e l'altro, con l'opzione da linea di comando `--tape` o, abbreviato `-t`.
 
 ```
-python turing.py ./esempi/divisori_5.tur --tape 1 2 3 4
+python turing.py ./examples/divisori_5.tur --tape 1 2 3 4
 ```
 _Questo comando inizializzerà la macchina con, all'interno del nastro:_
 ```python
@@ -95,4 +95,4 @@ Stato finale del nastro:
 <br>
 <hr>
 
-Nella cartella `esempi` sono presenti alcuni programmi di esempio per far funzionare la macchina.
+Nella cartella `examples` sono presenti alcuni programmi di esempio per far funzionare la macchina.
